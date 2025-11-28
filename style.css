@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f2f0f5;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    height: 100vh;
+}
+.login-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.login-box {
+    background-color: white;
+    margin: 150px;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2ox 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+img{
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.login-btn:hover {
+    background-color: #166fe5;
+}
+.forgot-password {
+    margin-top: 10px;
+}
+.forgot-password {
+    color: #1877f2;
+    text-decoration: underline;
+}
+.forgot-password a:hover {
+    text-align: underline;
+}
+
+.devider {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.devider hr {
+    flex-grow: 1;
+    border: 1px solid #add;
+}
+.devider span {
+    padding: 0 10px;
+    color: #999;
+}
+.create-account-btn {
+    width: 100;
+    padding: 12px;
+    background-color: #41b72a;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.create-account-btn:hover {
+    background-color: #36a420;
+}
